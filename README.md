@@ -89,5 +89,6 @@ Yetkili giriş sayfası
 
 Ürün silme butonu
 
-![image](https://user-images.githubusercontent.com/65676107/213800966-b44ab52c-103a-43a4-a79f-e68aa27a1f15.png)
+![image](https://user-images.githubusercontent.com/65676107/213801429-abb39f94-9af2-4ea6-ba0f-19d696acdefc.png)
+
 
