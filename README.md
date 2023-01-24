@@ -1,6 +1,6 @@
 # Product Price
 
-A new Flutter project.
+A new  Daap project.
 
 This project was developed by learning from scratch with Kemal Kağan Orhan. I thank him very much for his hard work. You can find it on Github here.["https://github.com/KemalKO240"]
 
@@ -33,7 +33,7 @@ and benefits have been shown through this project.
 - Product Removal: Removes product information from the application. (Only authorized person can access this function.)
 - Authorized Login Screen: It provides access to the authorized person who will have high access to the database.
 
-image
+![image](https://user-images.githubusercontent.com/65676107/214400326-91ef421a-07d6-4e31-af5d-5d0312c2bae1.png)
 
 # 3.Methods and Technologies
 
@@ -63,7 +63,8 @@ Flutter is an open source interface software development kit created by Google. 
 
 The system consists of two layers: Application Layer and Server Layer. It is aimed that the proposed system is user-friendly, fast, accurate and safe. In line with this goal, what needs to be done in the two layers mentioned above are explained in detail under the following headings.
 
-image
+![image](https://user-images.githubusercontent.com/65676107/214400457-c1f99710-8b18-466d-ad67-467a8cdc9dc7.png)
+
 
 Figure: System Architecture
 
@@ -71,13 +72,14 @@ Figure: System Architecture
 
 The system is intended to be built as an application that users can install on their mobile devices or as a website that they can view via a browser. This provides an advantage in terms of usability. In order to achieve this advantage, a framework is required in which both the website containing the WebAPI service and the mobile application codes can be created. In this context, an application with two different modes that can be used by normal users and software developers has been developed. The working interactive of these modes is shown in the figures below with the Sequence diagram technique.
 
-image
+
 
 ### a) User Mode
 
  What the user can do in this mode is limited. You can search and find products. You can see the price information of a product, where and how the product has changed in price until it comes to the market, and you can see the price change of the product on a monthly basis.
 
-image
+![image](https://user-images.githubusercontent.com/65676107/214400573-4c1dbf48-fb78-4d4c-9132-fba1b0c3b585.png)
+
 
 Figure: User Sequence Diagram
 
@@ -85,7 +87,8 @@ Figure: User Sequence Diagram
 
   In this mode, the user can use the full capabilities of the mode. Additionally, it can add a new product or update the product's information or delete the product. The deletion phase does not actually occur completely. Because in Blockchain, nothing is deleted. We just pretend it was deleted. So we change the data to zero and it looks like it is deleted on the app but it is not actually deleted.
 
-image
+![image](https://user-images.githubusercontent.com/65676107/214400638-0fb524dc-98bb-4ed5-b50d-82a0154f8e89.png)
+
 
 Figure: Admin Sequence Diagram
 
@@ -98,6 +101,8 @@ The communication layer is used to communicate between the application layer and
 The server layer is responsible for processing requests and sending results to applications. In this layer, after the requests coming with the web services are checked and the transactions are made, the applications are responded to. This layer is actually the main purpose of the project. In this part, the data transferred to the fixed server in traditional methods is sent to the Blockchain system, which is a completely different decentralized network. Miners process this data in blocks for a fee. In fact, there is no server, only a network, kind of like the internet. In the project, transactions are carried out over this network. This may cause some problems to occur. These problems are mentioned in the title of 'Problems Encountered'.
 
 ## 5.Market Product Pricing System Application with Blockchain
+
+![image](https://user-images.githubusercontent.com/65676107/214400741-9fedcbac-fb95-4235-ab36-a9f1932cc638.png)
 
 Figure : Technologies used in system architecture
 
@@ -138,6 +143,8 @@ The software platforms used for the Market Products Price Tracking application g
 ![image](https://user-images.githubusercontent.com/65676107/213800380-58a2a2f1-9ef3-4bf4-ad05-8929f4ff3962.png)
 
 - Price time distribution
+  
+  ![image](https://user-images.githubusercontent.com/65676107/214400947-f795413e-61c9-4426-a3db-1833a70c04d2.png)
   
 - General price change
   
