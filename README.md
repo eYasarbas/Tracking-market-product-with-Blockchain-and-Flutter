@@ -1,8 +1,8 @@
-# Product Price
+# Project Information and Design
 
 A new  Dapp project.
 
-This project was developed by learning from scratch with Kemal Kağan Orhan. I thank him very much for his hard work. You can find it on Github here.["https://github.com/KemalKO240"]
+This project was developed from scratch by Kemal Kağan Orhan. I am very grateful to him for his efforts. You can find it on Github here.["https://github.com/KemalKO240"]
 
 # Installation/running steps
 
