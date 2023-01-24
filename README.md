@@ -1,6 +1,6 @@
 # Product Price
 
-A new  Daap project.
+A new  Dapp project.
 
 This project was developed by learning from scratch with Kemal Kağan Orhan. I thank him very much for his hard work. You can find it on Github here.["https://github.com/KemalKO240"]
 
