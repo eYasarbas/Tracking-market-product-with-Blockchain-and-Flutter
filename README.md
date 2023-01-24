@@ -4,6 +4,30 @@ A new  Dapp project.
 
 This project was developed by learning from scratch with Kemal Kağan Orhan. I thank him very much for his hard work. You can find it on Github here.["https://github.com/KemalKO240"]
 
+# Installation/running steps
+
+1) Download and install Flutter + Android Studio (or VS Code)
+
+2) Ganache and Truffle must be downloaded and installed
+
+3) Open Ganache and create a new WorkSpace, add the truffle config in the project here
+
+4) The project must be opened with Android Studio or VS Code
+
+5) ' final String _privateKey = ; ' value should be updated, Private key values can be accessed by pressing the key of the top one of the accounts in the accounts section in ganache.
+
+6) Go to the project folder on the console and run the "truffle migrate" command, (Note that contracts are deployed without any problems (it can also be checked on the ganache or contract page))
+
+7) In the project that is open in Android Studio or VS code, pubspec.yaml should be opened and Pub Get should be done.
+
+8) Internet browser should be selected as the platform, (example: Chrome)
+
+9) The project can be Run. (This process may take a few minutes.) (It can be followed from the Run console, no data should be output.)
+
+10) Since the database will be empty at the first startup, press the "first installation" button, then add a fake/artificial product, (this product item will most likely not be visible)
+
+11) Then add the real products: wholesaler, cargo and market data should be added at least 4 pieces in accordance with the format, at least 3 pieces of historical prices should be added in accordance with the format, (This data amount is required for the formation of the chart)
+
 ## 1. ABSTRACT
 
 Supply chains plays a very important role in the pricing of grocery products.
@@ -65,21 +89,17 @@ The system consists of two layers: Application Layer and Server Layer. It is aim
 
 ![image](https://user-images.githubusercontent.com/65676107/214400457-c1f99710-8b18-466d-ad67-467a8cdc9dc7.png)
 
-
 Figure: System Architecture
 
 ## Application Layer
 
 The system is intended to be built as an application that users can install on their mobile devices or as a website that they can view via a browser. This provides an advantage in terms of usability. In order to achieve this advantage, a framework is required in which both the website containing the WebAPI service and the mobile application codes can be created. In this context, an application with two different modes that can be used by normal users and software developers has been developed. The working interactive of these modes is shown in the figures below with the Sequence diagram technique.
 
-
-
 ### a) User Mode
 
  What the user can do in this mode is limited. You can search and find products. You can see the price information of a product, where and how the product has changed in price until it comes to the market, and you can see the price change of the product on a monthly basis.
 
 ![image](https://user-images.githubusercontent.com/65676107/214400573-4c1dbf48-fb78-4d4c-9132-fba1b0c3b585.png)
-
 
 Figure: User Sequence Diagram
 
@@ -88,7 +108,6 @@ Figure: User Sequence Diagram
   In this mode, the user can use the full capabilities of the mode. Additionally, it can add a new product or update the product's information or delete the product. The deletion phase does not actually occur completely. Because in Blockchain, nothing is deleted. We just pretend it was deleted. So we change the data to zero and it looks like it is deleted on the app but it is not actually deleted.
 
 ![image](https://user-images.githubusercontent.com/65676107/214400638-0fb524dc-98bb-4ed5-b50d-82a0154f8e89.png)
-
 
 Figure: Admin Sequence Diagram
 
