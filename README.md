@@ -2,7 +2,7 @@
 
 A new  Dapp project.
 
-This project was developed from scratch by Kemal Kağan Orhan. I am very grateful to him for his efforts. You can find it on Github here.["https://github.com/KemalKO240"]
+This project was developed from scratch with by Kemal Kağan Orhan. I am very grateful to him for his efforts. You can find it on Github here.["https://github.com/KemalKO240"]
 
 # Installation/running steps
 
